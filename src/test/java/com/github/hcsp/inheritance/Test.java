@@ -1,5 +1,6 @@
 package com.github.hcsp.inheritance;
 
+import com.github.hcsp.test.helper.ClassInspector;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
