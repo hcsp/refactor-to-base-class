@@ -12,6 +12,6 @@ public class Dog {
     }
 
     public void wang() {
-        System.out.println("汪");
+        System.out.println("汪" + name);
     }
 }

@@ -12,6 +12,6 @@ public class Rat {
     }
 
     public void zhizhi() {
-        System.out.println("吱吱");
+        System.out.println("吱吱" + name);
     }
 }

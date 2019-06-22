@@ -12,6 +12,6 @@ public class Cat {
     }
 
     public void meow() {
-        System.out.println("喵");
+        System.out.println("喵" + name);
     }
 }
