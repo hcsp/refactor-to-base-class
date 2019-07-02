@@ -13,6 +13,5 @@ public class Main {
         Rat rat = new Rat("BCD");
         rat.zhizhi();
         rat.sayMyName();
-        System.out.println(Dog.class.getDeclaredMethods().length);
     }
 }
