@@ -1,7 +1,6 @@
 package com.github.hcsp.inheritance;
 
 public class Main {
-    // 继承
     public static void main(String[] args) {
         Cat cat = new Cat("ABC");
         cat.meow();
