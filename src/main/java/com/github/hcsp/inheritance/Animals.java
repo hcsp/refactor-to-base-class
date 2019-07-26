@@ -1,13 +1,13 @@
 package com.github.hcsp.inheritance;
 
-public class Animals {
-    public String name;
+class Animals {
+    String name;
 
-    public Animals(String name) {
+    Animals(String name) {
         this.name = name;
     }
 
-    public void sayMyName(){
+    void sayMyName(){
         System.out.println("我的名字是" + name);
     }
 }

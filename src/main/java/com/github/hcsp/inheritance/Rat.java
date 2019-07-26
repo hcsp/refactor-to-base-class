@@ -6,7 +6,7 @@ public class Rat extends Animals{
         super(name);
     }
 
-    public void zhizhi() {
+    void zhizhi() {
         System.out.println("吱吱" + name);
     }
 }
