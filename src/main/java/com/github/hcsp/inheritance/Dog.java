@@ -7,7 +7,7 @@ public class Dog extends Animals{
     }
 
     public void wang() {
-        System.out.println("汪" + super.getName());
+        System.out.println("汪" + this.getName());
     }
 
 }
