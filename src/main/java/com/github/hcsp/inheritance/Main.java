@@ -7,10 +7,12 @@ public class Main {
         cat.sayMyName();
 
         Dog dog = new Dog("BCD");
+
         dog.wang();
         dog.sayMyName();
 
         Rat rat = new Rat("BCD");
+
         rat.zhizhi();
         rat.sayMyName();
     }
