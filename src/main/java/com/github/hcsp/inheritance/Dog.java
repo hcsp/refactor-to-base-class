@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class Dog extends animal{
+public class Dog extends Animal {
 
     public Dog(String name) {
         this.name = name;
