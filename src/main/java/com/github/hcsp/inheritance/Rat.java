@@ -3,7 +3,7 @@ package com.github.hcsp.inheritance;
 public class Rat extends Animal{
 
     public Rat(String name) {
-        this.name = name;
+        super(name);
     }
 
 
