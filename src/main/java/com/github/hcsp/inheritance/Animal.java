@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class Animal {
-    public String name;
+    String name;
 
     Animal(String name){
         this.name = name;
