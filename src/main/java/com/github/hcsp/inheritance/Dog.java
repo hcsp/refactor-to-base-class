@@ -1,11 +1,8 @@
 package com.github.hcsp.inheritance;
 
 public class Dog extends  Animals{
-    private String name;
-
     public Dog(String name) {
         super(name);
-        this.name = name;
     }
 
 
