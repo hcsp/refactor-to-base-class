@@ -9,8 +9,8 @@ public class Cat extends Animal{
 //          super.call(voice,name);
 //      }
 
-//    private String name;
-//
+    private String name;
+
     public Cat(String name) {
         this.name = name;
     }

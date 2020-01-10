@@ -8,8 +8,8 @@ public class Dog extends Animal {
 //        super.sayMyName(name);
 //        super.call(voice,name);
 //    }
-//    private String name;
-//
+    private String name;
+
     public Dog(String name) {
         this.name = name;
     }
