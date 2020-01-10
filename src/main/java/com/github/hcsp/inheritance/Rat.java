@@ -14,9 +14,9 @@ public class Rat extends Animal{
 //        this.name = name;
 //    }
 //
-    public void sayMyName() {
-        super.sayMyName(name);
-    }
+//    public void sayMyName() {
+//        super.sayMyName(name);
+//    }
 
     public void zhizhi() {
         super.call("吱吱",name);

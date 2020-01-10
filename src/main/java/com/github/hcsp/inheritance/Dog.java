@@ -14,9 +14,9 @@ public class Dog extends Animal {
 //        this.name = name;
 //    }
 
-    public void sayMyName() {
-        super.sayMyName(name);
-    }
+//    public void sayMyName() {
+//        super.sayMyName(name);
+//    }
 
     public void wang() {
         super.call("汪",name);

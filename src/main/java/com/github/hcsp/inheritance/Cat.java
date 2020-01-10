@@ -15,9 +15,9 @@ public class Cat extends Animal{
 //        this.name = name;
 //    }
 
-    public void sayMyName() {
-        super.sayMyName(name);
-    }
+//    public void sayMyName() {
+//        super.sayMyName(name);
+//    }
 
     public void meow() {
         super.call("喵",name);
