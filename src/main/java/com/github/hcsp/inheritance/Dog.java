@@ -19,6 +19,6 @@ public class Dog extends Animal {
 //    }
 
     public void wang() {
-        super.call("汪",name);
+        System.out.println("汪" + name);
     }
 }

@@ -19,7 +19,9 @@ public class Rat extends Animal{
 //    }
 
     public void zhizhi() {
-        super.call("吱吱",name);
+        System.out.println("吱吱" + name);
 
     }
+
+
 }

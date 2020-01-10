@@ -20,7 +20,7 @@ public class Cat extends Animal{
 //    }
 
     public void meow() {
-        super.call("喵",name);
+        System.out.println("喵" + name);
     }
 
 
