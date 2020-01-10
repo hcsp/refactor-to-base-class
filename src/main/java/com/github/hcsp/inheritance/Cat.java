@@ -1,9 +1,9 @@
 package com.github.hcsp.inheritance;
 
 public class Cat extends Animal{
-      Cat(String name){
-        super(name);
-      }
+//      Cat(String name){
+//        super(name);
+//      }
 //      public void cat(String name,String voice){
 //          super.sayMyName(name);
 //          super.call(voice,name);
@@ -11,9 +11,9 @@ public class Cat extends Animal{
 
 //    private String name;
 //
-//    public Cat(String name) {
-//        this.name = name;
-//    }
+    public Cat(String name) {
+        this.name = name;
+    }
 
 //    public void sayMyName() {
 //        super.sayMyName(name);
