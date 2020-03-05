@@ -8,9 +8,10 @@ package com.github.hcsp.inheritance;
  * @since: JDK 8
  */
 public class Animals {
+
     String name;
 
-    public void sayMyName() {
+    void sayMyName() {
         System.out.println("我的名字是" + name);
     }
 }
