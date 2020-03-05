@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class Rat extends Animals{
+public class Rat extends Animals {
 
 
     public Rat(String name) {
@@ -8,6 +8,7 @@ public class Rat extends Animals{
     }
 
     public void zhizhi() {
+
         System.out.println("吱吱" + name);
     }
 }

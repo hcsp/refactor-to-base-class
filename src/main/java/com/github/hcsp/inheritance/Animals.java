@@ -12,6 +12,7 @@ public class Animals {
     String name;
 
     void sayMyName() {
+
         System.out.println("我的名字是" + name);
     }
 }
