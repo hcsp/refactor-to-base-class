@@ -7,7 +7,7 @@ public class Animal {
        this.name = name;
     }
 
-    void sayMyName() {
+    public void sayMyName() {
         System.out.println("我的名字是" + name);
     }
 }
