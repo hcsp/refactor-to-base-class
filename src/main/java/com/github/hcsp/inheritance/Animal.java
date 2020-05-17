@@ -7,3 +7,4 @@ public class Animal {
         System.out.println("我的名字是" + name);
     }
     }
+
