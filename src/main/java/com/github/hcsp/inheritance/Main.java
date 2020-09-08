@@ -14,6 +14,6 @@ public class Main {
         rat.zhizhi();
         rat.sayMyName();
 
-        }
     }
+}
 
