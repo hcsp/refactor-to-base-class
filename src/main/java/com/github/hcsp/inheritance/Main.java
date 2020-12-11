@@ -1,5 +1,6 @@
 package com.github.hcsp.inheritance;
 
+// 动物
 public class Main {
     public static void main(String[] args) {
         Cat cat = new Cat("ABC");
