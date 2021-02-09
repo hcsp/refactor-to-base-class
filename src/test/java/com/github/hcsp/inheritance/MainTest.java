@@ -22,6 +22,7 @@ public class MainTest {
 
     @Test
     public void inspectFields() {
+
         ClassInspector.assertNoPublicFields(Cat.class, Dog.class, Rat.class);
         ClassInspector.assertNoDeclaredFields(Cat.class, Dog.class, Rat.class);
     }
