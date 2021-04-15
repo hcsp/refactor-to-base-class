@@ -5,10 +5,6 @@ public class Rat extends Animal {
         this.name = name;
     }
 
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
-    }
-
     public void zhizhi() {
         System.out.println("吱吱" + name);
     }
