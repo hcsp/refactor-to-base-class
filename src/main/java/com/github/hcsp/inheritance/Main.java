@@ -13,5 +13,7 @@ public class Main {
         Rat rat = new Rat("BCD");
         rat.zhizhi();
         rat.sayMyName();
+
     }
+
 }
