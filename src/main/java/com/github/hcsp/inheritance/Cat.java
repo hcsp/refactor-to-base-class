@@ -10,6 +10,6 @@ public class Cat extends Animal{
     }
 
     public void meow() {
-        System.out.println("喵" + name);
+        super.call("喵");
     }
 }
