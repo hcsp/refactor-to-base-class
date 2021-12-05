@@ -7,8 +7,6 @@ public class Cat extends  Animal{
         super(name);
     }
 
-
-
     public void meow() {
         super.call("喵");
     }
