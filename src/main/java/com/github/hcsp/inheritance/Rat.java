@@ -7,7 +7,7 @@ public class Rat extends Animal {
         super(name);
     }
 
-    public void zhizhi( ) {
-        System.out.println("吱吱" + this.name);
+    public void zhizhi() {
+        System.out.println("吱吱" + name);
     }
 }
