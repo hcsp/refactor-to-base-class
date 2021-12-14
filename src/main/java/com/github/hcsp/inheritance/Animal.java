@@ -1,10 +1,10 @@
 package com.github.hcsp.inheritance;
 
 public class Animal {
-    public String name;
+     String name;
 
     public Animal(String mayName) {
-        name = mayName;
+        this.name = mayName;
     }
 
     public void sayMyName() {
