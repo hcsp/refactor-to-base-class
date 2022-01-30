@@ -1,8 +1,14 @@
 package com.github.hcsp.inheritance;
 
-public class Rat extends Main{
+public class Rat {
+    private String name;
+
     public Rat(String name) {
-        super(name);
+        this.name = name;
+    }
+
+    public void sayMyName() {
+        System.out.println("我的名字是" + name);
     }
 
     public void zhizhi() {
