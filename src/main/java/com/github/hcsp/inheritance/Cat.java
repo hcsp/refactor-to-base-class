@@ -1,17 +1,16 @@
 package com.github.hcsp.inheritance;
 
-public class Cat {
-    private String name;
-
+public class Cat extends Main{
     public Cat(String name) {
-        this.name = name;
+        super(name);
     }
-
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
-    }
-
     public void meow() {
         System.out.println("喵" + name);
+    }
+    public static void main(String[] args) {
+        Cat cat = new Cat("miao");
+
+        cat.sayMyName();
+        cat.meow();
     }
 }
