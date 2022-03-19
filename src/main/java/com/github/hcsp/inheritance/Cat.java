@@ -1,11 +1,12 @@
 package com.github.hcsp.inheritance;
 
-public class Cat extends Animal{
+public class Cat extends Ainmal {
+
     public Cat(String name) {
         super(name);
     }
 
     public void meow() {
-        System.out.println("喵" + this.getName());
+        System.out.println("喵" + super.name);
     }
 }
