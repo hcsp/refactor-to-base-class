@@ -10,7 +10,6 @@ public class Main {
         dog.wang();
         dog.sayMyName();
 
-
         Rat rat = new Rat("BCD");
         rat.zhizhi();
         rat.sayMyName();
