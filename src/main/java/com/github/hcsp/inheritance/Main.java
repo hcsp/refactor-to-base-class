@@ -1,5 +1,7 @@
 package com.github.hcsp.inheritance;
 
+import javax.naming.Name;
+
 public class Main {
     public static void main(String[] args) {
         Cat cat = new Cat("ABC");
