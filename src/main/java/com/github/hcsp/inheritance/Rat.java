@@ -2,10 +2,10 @@ package com.github.hcsp.inheritance;
 
 public class Rat extends Animal {
     public Rat(String name) {
-        this.name = name;
+        super.setName(name);
     }
 
     public void zhizhi() {
-        System.out.println("吱吱" + name);
+        System.out.println("吱吱" + super.getName());
     }
 }
