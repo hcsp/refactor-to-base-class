@@ -1,12 +1,17 @@
 package com.github.hcsp.inheritance;
- class Cat extends Main {                       //cat继承了main类
-    Cat(String name) {                          //cat的构造器
-        super(name);                            //super来引用父类构造器传递name参数
+
+public class Cat {
+    private String name;
+
+    public Cat(String name) {
+        this.name = name;
     }
-    void meow() {                               //meow方法的声明
-        System.out.println(this.getName() +"喵");
+
+    public void sayMyName() {
+        System.out.println("我的名字是" + name);
+    }
+
+    public void meow() {
+        System.out.println("喵" + name);
     }
 }
-
-
-
