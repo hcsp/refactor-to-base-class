@@ -1,17 +1,13 @@
 package com.github.hcsp.inheritance;
 
-public class Cat {
-    private String name;
-
-    public Cat(String name) {
-        this.name = name;
+class Cat extends Animal{  // 子类先继承父类
+    Cat(String name){                  // 子类构造器
+        super(name);        // 用super来调用父类构造器
     }
 
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
-    }
-
-    public void meow() {
+    void meow() {
         System.out.println("喵" + name);
     }
+
+
 }
